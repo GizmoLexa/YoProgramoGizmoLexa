@@ -2,3 +2,8 @@ body{
     background: rgb(212, 215, 248);
     front-family: sans-serif;
 }
+
+iframe {
+    width: 50%;
+    height: 30vh;
+}
