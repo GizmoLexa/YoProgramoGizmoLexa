@@ -1,3 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif; /*tipografia*/
+}
+
+/*Define el tamaño del baner por medio de un id*/
+div#banner{
+    width: 100%;
+    height: 400px;
+    background-color: #206163;
+}
+
+/*bloquea el banner en el centro, le da un max y min de zoom hasta 1200px (tamaño de la imagen*/
+img#img_banner{
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+    min-width: 500px;
+}
+
+}
+
 body{
     background: rgb(212, 215, 248);
     front-family: sans-serif;
