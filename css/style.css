@@ -20,14 +20,36 @@ img#img_banner{
     min-width: 500px;
 }
 
-}
-
 body{
     background: rgb(212, 215, 248);
     front-family: sans-serif;
 }
 
+.aviso {
+    padding: 0.5em;
+    border: 1px solid #98be10;
+    background: #f6feda;
+}
+
+.error {
+    color: #930;
+    font-weight: bold;
+}
+
+.sangria{
+    margin-left: 40px;
+}
+
+.sangriaGrande{
+    margin-left: 100px;
+}
+
 iframe {
     width: 50%;
     height: 30vh;
+}
+
+#icono {
+    width: 40px
+
 }
