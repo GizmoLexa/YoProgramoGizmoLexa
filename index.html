@@ -27,46 +27,40 @@
 
   <body>
     <header>
-      <div>
-        <!--Logo ArgPrograma-->
+      <div class="barraHeader">
+        <!--Logo ArgProg-->
         <a
-          href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa"
-          target="blank"
-        >
-          <img
-            id="iconoArgPrograma"
-            src="img/ArgentinaPrograma.ico"
-            alt="Icono ArgPrograma"
-        /></a>
-      </div>
-      
-
-      <div>
-        <!--Redes sociales--><!--Icono en vez del nombre-->
-        <a href="https://www.instagram.com/guidohid/" target="blank"
-          ><img
-            src="ico/instagram.ico"
-            alt="Icono Instagram"
-            id="iconoInstagram"
-          /> </a>
-        <a href="https://www.facebook.com/guido.insfran.7/" target="blank" 
-          ><img
-            src="ico/facebook.ico"
-            alt="Icono Facebook"
-            id="iconoFacebook"
-          /></a>
-      </div>
-
+        href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa"
+        target="blank"
+      >
+        <img
+          id="iconoArgPrograma"
+          src="img/ArgentinaPrograma.ico"
+          alt="Icono ArgPrograma"
+      /></a>
+      <!--Redes sociales--><!--Icono en vez del nombre-->
+      <a href="https://www.instagram.com/guidohid/" target="blank"
+      ><img
+        src="ico/instagram.ico"
+        alt="Icono Instagram"
+        id="iconoInstagram"
+      /> </a>
+    <a href="https://www.facebook.com/guido.insfran.7/" target="blank" 
+      ><img
+        src="ico/facebook.ico"
+        alt="Icono Facebook"
+        id="iconoFacebook"
+      /></a>
       <div id="login">
-        <span>Login</span>
-        
+        Login        
       </div>
-
-      <div id="banner">
-        <img src="img/Banner2.png" alt="Banner" id="img_banner" />
       </div>
     </header>
 
+    <div id="banner">
+      <img src="img/Banner2.png" alt="Banner" id="img_banner" />
+    </div>
+    
     <div> <!--Perfil-->
       <section>
         <img src="img/FotoPerfil.png" 
@@ -108,7 +102,7 @@
     <br />
 
     <div class="sangriaGrande">
-      <h3>Acerca de</h3>
+      <h3><span>Acerca de</span></h3>
       <br />
       <p class="importante">
         <em
@@ -169,7 +163,7 @@
         <li>
           Primera etapa de
           <a
-            href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa"
+            href="https://www.argentina.gob.ar/produccion/argentina-programa/primera-etapa"
             target="blank"
           >
             Argentina Programa:</a
@@ -205,11 +199,24 @@
       <br />
     </div>
 
-    <div align="center">
+    <div class="centrados">
       <h4>Ir a</h4>
-      <a href="#iconoArgPrograma"> Inicio</a> <br />
+      <a href="#banner">Inicio</a> <br />
       <a href="https://www.google.com/" target="blank">Google</a>
       <!-- Pueba navegador, el link de Google abre en nueva ventana-->
     </div>
+  
+    <div>
+      <form action="">
+        <h3>CONTACTO</h3>
+        <P>Enviame un correo con tu comentario o propuesta</P>
+        <input type="text" placeholder="Nombre"><br>
+        <input type="email" placeholder="email"> <br>
+        <input type="phone" placeholder="Telefono"> <br>
+        <textarea name="mensaje" placeholder="Escriba el mensaje"></textarea> <br>
+        <input type="submit" id="enviar">
+      </form>
+    </div>
+    <br>
   </body>
 </html>
