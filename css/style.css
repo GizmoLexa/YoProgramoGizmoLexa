@@ -23,7 +23,7 @@ img#img_banner {
 }
 
 body {
-  front-family: sans-serif;
+  font-family: sans-serif;
   background-color: rgba(0, 0, 0, 0.836);
 }
 
@@ -88,7 +88,7 @@ iframe {
 
 #fotoPerfil {
   margin-top: 30px;
-  margin-bottom: 9px;
+  margin-bottom: 19px;
   margin-left: 40px;
 }
 
