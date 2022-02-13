@@ -201,3 +201,20 @@ form > textarea {
   margin-left: 150px;
   position: absolute;
 }
+
+.tarjeta {
+  width: 700px;
+  height: 300px;
+  background: #930;
+  margin-left: 1000px;
+  padding-left: 50px;
+  padding-top: 50px;
+  margin: auto;
+  
+}
+
+#estudios {
+  background: linear-gradient(rgba(5, 12, 7, 0.75), rgba(5, 12, 7, 0.75)), url(/img/Biblioteca.jpg); 
+  /*imagen con transparencia*/
+  border-radius: 20px;
+}
