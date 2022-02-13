@@ -6,20 +6,68 @@
 }
 
 /*Define el tamaño del baner por medio de un id*/
+#iconoArgPrograma {
+  width: 120px;
+  margin-top: 6px;
+  margin-left: 15px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  float: left;
+}
+
+#iconoArgPrograma:hover {
+  width: 125px;
+}
+
+#login {
+  background-color: rgb(58, 0, 58);
+  color: cornsilk;
+  position: absolute;
+  right: 20px;
+  width: 120px;
+  height: 30px;
+  margin-top: 15px;
+  border-radius: 15%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid rgb(102, 101, 101);
+}
+
+#login:hover {
+  cursor: pointer;
+  color: gold;
+  background-color: #31184a;
+}
+
+header {
+  width: 100%;
+  clear: both;
+  position: fixed;
+  display: table;
+}
+
+.barraHeader {
+  width: auto;
+  height: 70px;
+  background: linear-gradient(rgba(5, 12, 7, 0.75), rgba(5, 12, 7, 0.75)),
+    url(/img/banner2.jpg);
+  /*imagen con transparencia*/
+  border-radius: 17px;
+}
+
 div#banner {
   width: 100%;
   height: 400px;
-  background-color: #206163;
+  background-color: #030303;
 }
 
 /*bloquea el banner en el centro, le da un max y min de zoom hasta 1200px (tamaño de la imagen*/
-img#img_banner {
-  display: block;
-  margin: auto;
-  width: 700px;
-  max-width: 1800px;
-  min-width: 1000px;
-  padding-top: 65px;
+#banner {
+  background: linear-gradient(rgba(5, 12, 7, 0.75), rgba(5, 12, 7, 0.75)),
+    url(/img/banner2.jpg);
+  /*imagen con transparencia*/
+  border-radius: 20px;
 }
 
 body {
@@ -105,68 +153,23 @@ iframe {
   padding-top: 50px;
 }
 
-#experiencia{
-  background: linear-gradient(rgba(5, 12, 7, 0.75), rgba(5, 12, 7, 0.75)), url(/img/edificioCentinela.jpg); 
+#experiencia {
+  background: linear-gradient(rgba(5, 12, 7, 0.75), rgba(5, 12, 7, 0.75)),
+    url(/img/fondoGeometrico3.jpg);
   /*imagen con transparencia*/
   border-radius: 20px;
 }
 
 #estudios {
-  background: linear-gradient(rgba(5, 12, 7, 0.75), rgba(5, 12, 7, 0.75)), url(/img/Biblioteca.jpg); 
+  background: linear-gradient(rgba(5, 12, 7, 0.75), rgba(5, 12, 7, 0.75)),
+    url(/img/Biblioteca.jpg);
   border-radius: 20px;
 }
+
 #fotoPerfil {
   margin-top: 30px;
   margin-bottom: 19px;
   margin-left: 40px;
-}
-
-#iconoArgPrograma {
-  width: 120px;
-  margin-top: 6px;
-  margin-left: 15px;
-  margin-bottom: 0px;
-  padding-top: 0px;
-  float: left;
-}
-
-#iconoArgPrograma:hover {
-  width: 125px;
-}
-
-#login {
-  background-color: rgb(58, 0, 58);
-  color: cornsilk;
-  position: absolute;
-  right: 20px;
-  width: 120px;
-  height: 30px;
-  margin-top: 15px;
-  border-radius: 15%;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border: 5px solid rgb(102, 101, 101);
-}
-
-#login:hover {
-  cursor: pointer;
-  color: gold;
-  background-color: #31184a;
-}
-
-header {
-  width: 100%;
-  clear: both;
-  position: fixed;
-  display: table;
-}
-
-.barraHeader {
-  width: auto;
-  height: 70px;
-  background: rgb(58, 0, 58);
-  border-radius: 17px;
 }
 
 .centrados {
@@ -231,4 +234,3 @@ form > textarea {
   margin-left: 150px;
   position: absolute;
 }
-
