@@ -86,6 +86,35 @@ iframe {
   padding-top: 15px;
 }
 
+.tarjeta {
+  width: 700px;
+  height: 300px;
+  background: #930;
+  margin-left: 1000px;
+  padding-left: 50px;
+  padding-top: 50px;
+  margin: auto;
+}
+
+.tarjetaPequeña {
+  width: 400px;
+  height: 200px;
+  background: #930;
+  margin-left: 100px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+#experiencia{
+  background: linear-gradient(rgba(5, 12, 7, 0.75), rgba(5, 12, 7, 0.75)), url(/img/edificioCentinela.jpg); 
+  /*imagen con transparencia*/
+  border-radius: 20px;
+}
+
+#estudios {
+  background: linear-gradient(rgba(5, 12, 7, 0.75), rgba(5, 12, 7, 0.75)), url(/img/Biblioteca.jpg); 
+  border-radius: 20px;
+}
 #fotoPerfil {
   margin-top: 30px;
   margin-bottom: 19px;
@@ -132,6 +161,7 @@ header {
   position: fixed;
   display: table;
 }
+
 .barraHeader {
   width: auto;
   height: 70px;
@@ -202,19 +232,3 @@ form > textarea {
   position: absolute;
 }
 
-.tarjeta {
-  width: 700px;
-  height: 300px;
-  background: #930;
-  margin-left: 1000px;
-  padding-left: 50px;
-  padding-top: 50px;
-  margin: auto;
-  
-}
-
-#estudios {
-  background: linear-gradient(rgba(5, 12, 7, 0.75), rgba(5, 12, 7, 0.75)), url(/img/Biblioteca.jpg); 
-  /*imagen con transparencia*/
-  border-radius: 20px;
-}
