@@ -121,16 +121,13 @@ header {
 
 }
 
-.perfil__addres {
-  font-size: 50px;
-}
-
 .acerca-de-mi {
   margin-left: 500px;
   width: 1500px;
   padding: 20px 20px 20px 20px;
-  background-color: rgba(153, 51, 0, 0.205);
+  background: linear-gradient(rgba(5, 12, 7, 0.75), rgba(5, 12, 7, 0.75)), url(/img/fondoGeometrico.jpg); 
   font-size: 20px;
+  border-radius: 20px;
   
 }
 
@@ -171,21 +168,11 @@ iframe {
 }
 
 
-.tarjeta {
-  width: 700px;
-  height: 300px;
-  background: #930;
-  margin-left: 1000px;
-  padding-left: 50px;
-  padding-top: 50px;
-  margin: auto;
-}
-
 .experiencia {
   width: 450px;
   height: 200px;
-  background: #930;
-  margin-left: 100px;
+  margin-left: 500px;
+  margin-top: 40px;
   padding-left: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -193,12 +180,7 @@ iframe {
   /*imagen con transparencia*/
   border-radius: 20px;
   font-size: 20px;
-}
-
-.experiencia__h3 {
-  font-family: 'Dancing Script', cursive;
-  font-size: 2em;
-  text-align: center;
+  float: left;
 }
 
 #logoGN {
@@ -209,15 +191,21 @@ iframe {
   margin-right: 50px;
 }
 
-.experiencia__section {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
 
-#estudios {
+.estudios {
+  width: 700px;
+  height: 400px;
+  margin-left: 1000px;
+  padding:  20px 20px 20px 40px;
   background: linear-gradient(rgba(5, 12, 7, 0.75), rgba(5, 12, 7, 0.75)), url(/img/Biblioteca.jpg); 
   border-radius: 20px;
+  font-size: 20px;
 }
 
+.acerca-de-mi__h3--size {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.4em;
+}
 
 .centrados {
   text-align: center;
